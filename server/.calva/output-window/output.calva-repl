@@ -1,0 +1,585 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Connecting ...
+; Reading port file: file:///c%3A/Users/andre/projects/scheduler/server/.nrepl-port ...
+; Using host:port localhost:61153 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉server.core꞉>  ; Use `alt+enter` to evaluate
+clj꞉server.core꞉> (require '[server.routes :refer [app-routes]])
+nil
+clj꞉server.core꞉> app-routes
+#object[compojure.core$routes$fn__4311 0x17964e7e "compojure.core$routes$fn__4311@17964e7e"]
+clj꞉server.core꞉> (require '[org.httpkit.server :refer [run-server]])
+nil
+clj꞉server.main꞉> 
+#'server.main/port
+clj꞉server.main꞉> 
+#'server.main/-main
+clj꞉server.main꞉> 
+#object[clojure.lang.AFunction$1 0x60fa4e58 "clojure.lang.AFunction$1@60fa4e58"]
+clj꞉server.main꞉> 
+#'server.routes/app-routes
+clj꞉server.routes꞉> 
+nil
+clj꞉server.main꞉> 
+; Execution error (BindException) at sun.nio.ch.Net/bind0 (Net.java:-2).
+; Address already in use: bind
+clj꞉server.main꞉> 
+; Execution error (BindException) at sun.nio.ch.Net/bind0 (Net.java:-2).
+; Address already in use: bind
+clj꞉server.main꞉> (org.httpkit.server/stop-server #object[clojure.lang.AFunction$1 0x60fa4e58 "clojure.lang.AFunction$1@60fa4e58"]
+
+                                                  )
+; Syntax error reading source at (REPL:44:131).
+; No reader function for tag object
+clj꞉server.main꞉> (quit)
+; Syntax error compiling at (output.calva-repl:49:19).
+; Unable to resolve symbol: quit in this context
+clj꞉server.main꞉> 
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Connecting ...
+; Reading port file: file:///c%3A/Users/andre/projects/scheduler/server/.nrepl-port ...
+; Using host:port localhost:61248 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉server.core꞉> 
+clj꞉server.core꞉> 
+nil
+clj꞉server.main꞉> app-routes
+#object[compojure.core$routes$fn__4603 0x6f5e4562 "compojure.core$routes$fn__4603@6f5e4562"]
+clj꞉server.main꞉> 
+#'server.main/port
+clj꞉server.main꞉> 
+#'server.main/server
+clj꞉server.main꞉> 
+#'server.main/-main
+clj꞉server.main꞉> 
+#object[clojure.lang.AFunction$1 0x3bc863a9 "clojure.lang.AFunction$1@3bc863a9"]
+clj꞉server.main꞉> 
+nil
+clj꞉server.main꞉> 
+; Execution error (BindException) at sun.nio.ch.Net/bind0 (Net.java:-2).
+; Address already in use: bind
+clj꞉server.main꞉> 
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Connecting ...
+; Reading port file: file:///c%3A/Users/andre/projects/scheduler/server/.nrepl-port ...
+; Using host:port localhost:61305 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉server.core꞉> 
+clj꞉server.core꞉> 
+; Syntax error compiling at (main.clj:15:1).
+; Unable to resolve symbol: reset! in this context
+clj꞉server.main꞉> 
+nil
+clj꞉server.main꞉> 
+nil
+clj꞉server.main꞉> 
+#'server.main/port
+clj꞉server.main꞉> 
+#'server.main/server
+clj꞉server.main꞉> 
+#'server.main/-main
+clj꞉server.main꞉> 
+#object[clojure.lang.AFunction$1 0x1541c0d9 "clojure.lang.AFunction$1@1541c0d9"]
+clj꞉server.main꞉> 
+nil
+clj꞉server.main꞉> 
+; Execution error (BindException) at sun.nio.ch.Net/bind0 (Net.java:-2).
+; Address already in use: bind
+clj꞉server.main꞉> 
+nil
+clj꞉server.main꞉> 
+#'server.main/-main
+clj꞉server.main꞉> 
+#'server.main/-main
+clj꞉server.main꞉> 
+#object[clojure.lang.AFunction$1 0x6014fc "clojure.lang.AFunction$1@6014fc"]
+clj꞉server.main꞉> 
+nil
+clj꞉server.main꞉> 
+; Execution error (BindException) at sun.nio.ch.Net/bind0 (Net.java:-2).
+; Address already in use: bind
+clj꞉server.main꞉> 
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Connecting ...
+; Reading port file: file:///c%3A/Users/andre/projects/scheduler/server/.nrepl-port ...
+; Using host:port localhost:61305 ...
+; Hooking up nREPL sessions ...
+; nREPL connection failed: Error: connect ECONNREFUSED 127.0.0.1:61305
+; Failed connecting.
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Connecting ...
+; Reading port file: file:///c%3A/Users/andre/projects/scheduler/server/.nrepl-port ...
+; Using host:port localhost:61401 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉server.core꞉> 
+clj꞉server.core꞉> (use 'server.routes)\
+; Syntax error reading source at (REPL:181:1).
+; EOF while reading character
+clj꞉server.core꞉> 
+(use 'server.routes)
+nil
+clj꞉server.core꞉> 
+(use 'server.routes :reload)
+nil
+clj꞉server.core꞉> 
+(use server.main
+     )
+; Syntax error (ClassNotFoundException) compiling at (output.calva-repl:191:1).
+; server.main
+clj꞉server.core꞉> 
+(use server main)
+; Syntax error compiling at (output.calva-repl:196:1).
+; Unable to resolve symbol: server in this context
+clj꞉server.core꞉> (require '[org.httpkit.server :refer [run-server]])
+nil
+clj꞉server.core꞉> 
+(require '[server.routes :refer [app-routes]] :reload)
+nil
+clj꞉server.core꞉> 
+(run-server app-routes {:port 3000})
+#object[clojure.lang.AFunction$1 0x6cc8e68f "clojure.lang.AFunction$1@6cc8e68f"]
+clj꞉server.core꞉> 
+(require '[server.routes :refer [app-routes]] :reload)
+nil
+clj꞉server.core꞉> 
+(run-server app-routes {:port 3000})
+; Execution error (BindException) at sun.nio.ch.Net/bind0 (Net.java:-2).
+; Address already in use: bind
+clj꞉server.core꞉> 
+(def server (atom nil))
+#'server.core/server
+clj꞉server.core꞉> 
+(reset! server (run-server app-routes {:port 1337}))
+#object[clojure.lang.AFunction$1 0xb3aa501 "clojure.lang.AFunction$1@b3aa501"]
+clj꞉server.core꞉> 
+(reset! server (run-server app-routes {:port 1337}))
+; Execution error (BindException) at sun.nio.ch.Net/bind0 (Net.java:-2).
+; Address already in use: bind
+clj꞉server.core꞉> 
+(reset! server nil)
+nil
+clj꞉server.core꞉> 
+(reset! server (run-server app-routes {:port 1337}))
+; Execution error (BindException) at sun.nio.ch.Net/bind0 (Net.java:-2).
+; Address already in use: bind
+clj꞉server.core꞉> 
+(def server
+  (run-server app-routes {:port 8080 
+                                       :legacy-return-value false}))
+()
+clj꞉server.core꞉> 
+#'server.core/server
+; Syntax error compiling at (output.calva-repl:237:1).
+; Unable to resolve symbol: server-port in this context
+clj꞉server.core꞉> 
+(require '[org.httpkit.server :refer [run-server server-stop!]])
+nil
+clj꞉server.core꞉> 
+(server-stop! server)
+; Execution error (IllegalArgumentException) at org.httpkit.server/eval4487$fn$G (server.clj:17).
+; No implementation of method: :-server-stop! of protocol: #'org.httpkit.server/IHttpServer found for class: clojure.lang.AFunction$1
+clj꞉server.core꞉> 
+(server-port
+ server)
+; Syntax error compiling at (output.calva-repl:248:1).
+; Unable to resolve symbol: server-port in this context
+clj꞉server.core꞉> 
+(require '[org.httpkit.server :refer [run-server server-stop! server-port]])
+nil
+clj꞉server.core꞉> 
+(server-port
+ server)
+; Execution error (IllegalArgumentException) at org.httpkit.server/eval4487$fn$G (server.clj:17).
+; No implementation of method: :server-port of protocol: #'org.httpkit.server/IHttpServer found for class: clojure.lang.AFunction$1
+clj꞉server.core꞉> 
+server
+#object[clojure.lang.AFunction$1 0x769b6f9f "clojure.lang.AFunction$1@769b6f9f"]
+clj꞉server.core꞉> 
+(def server 
+  (atom (run-server app-routes {:port 8080 
+                                       :legacy-return-value false})))
+; Syntax error (BindException) compiling at (form-init16856517544576382725.clj:265:9).
+; Address already in use: bind
+clj꞉server.core꞉> 
+(def server 
+  (atom (run-server app-routes {:port 8000
+                                
+                                       :legacy-return-value false})))
+#'server.core/server
+clj꞉server.core꞉> 
+@server
+#object[clojure.lang.AFunction$1 0x6e397c3f "clojure.lang.AFunction$1@6e397c3f"]
+clj꞉server.core꞉> 
+(@server)
+nil
+clj꞉server.core꞉> 
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Connecting ...
+; Reading port file: file:///c%3A/Users/andre/projects/scheduler/server/.nrepl-port ...
+; Using host:port localhost:62139 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉server.core꞉> 
+clj꞉server.core꞉> 
+nil
+clj꞉server.main꞉> 
+#'server.main/-dev-main
+clj꞉server.main꞉> (-dev-main 3000)
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Connecting ...
+; Reading port file: file:///c%3A/Users/andre/projects/scheduler/server/.nrepl-port ...
+; Using host:port localhost:62355 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉server.core꞉> 
+clj꞉server.core꞉> 
+nil
+clj꞉server.main꞉> 
+#'server.main/-dev-main
+clj꞉server.main꞉> (+ 1 1)
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Connecting ...
+; Reading port file: file:///c%3A/Users/andre/projects/scheduler/server/.nrepl-port ...
+; Using host:port localhost:62410 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉server.core꞉> 
+clj꞉server.core꞉> 
+(java.util.Date. )
+#inst "2023-05-23T20:58:21.741-00:00"
+clj꞉server.core꞉> 
+(.parse); nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Connecting ...
+; Reading port file: file:///c%3A/Users/andre/projects/scheduler/server/.nrepl-port ...
+; Using host:port localhost:62513 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉server.core꞉> 
+clj꞉server.core꞉> 
+nil
+clj꞉server.main꞉> 
+#'server.main/-dev-main
+clj꞉server.main꞉> (require '[clj-time.core :as t])
+nil
+clj꞉server.main꞉> 
+
+(t/now)
+#object[org.joda.time.DateTime 0x51db2eea "2023-05-23T21:00:48.245Z"]
+clj꞉server.main꞉> 
+(require '[clj-time.format :as f])
+nil
+clj꞉server.main꞉> 
+(require '[clj-time.parse :as p])
+; Execution error (FileNotFoundException) at server.main/eval6098 (form-init3515947146643920816.clj:398).
+; Could not locate clj_time/parse__init.class, clj_time/parse.clj or clj_time/parse.cljc on classpath. Please check that namespaces with dashes use underscores in the Clojure file name.
+clj꞉server.main꞉> 
+(require '[clj-time.coerce :as c])
+nil
+clj꞉server.main꞉> 
+(c/to-long (t/now))
+1684875723171
+clj꞉server.main꞉> 
+(c/to-long (t/now))
+1684875766519
+clj꞉server.main꞉> 
+(-> (t/now)
+    (c/from-long))
+#clj-time/date-time "2023-05-23T21:04:03.590Z"
+clj꞉server.main꞉> 
+(-> (t/now)
+    (c/from-long)
+    (c/to-string))
+"2023-05-23T21:04:08.812Z"
+clj꞉server.main꞉> 
+(t/now)
+#clj-time/date-time "2023-05-23T21:04:15.940Z"
+clj꞉server.main꞉> 
+(-> (t/now)
+    (c/to-string))
+"2023-05-23T21:04:26.174Z"
+clj꞉server.main꞉> 
+(f/formatters :basic-date-time)
+#object[org.joda.time.format.DateTimeFormatter 0x73c10f11 "org.joda.time.format.DateTimeFormatter@73c10f11"]
+clj꞉server.main꞉> 
+(->> (t/now)
+     (f/parse (f/formatters :basic-date-time)))
+; Execution error (ClassCastException) at clj-time.format/parse (format.clj:156).
+; class org.joda.time.DateTime cannot be cast to class java.lang.String (org.joda.time.DateTime is in unnamed module of loader 'app'; java.lang.String is in module java.base of loader 'bootstrap')
+clj꞉server.main꞉> 
+(->> (t/now)
+     (c/to-string)
+     (f/parse (f/formatters :basic-date-time)))
+; Execution error (IllegalArgumentException) at org.joda.time.format.DateTimeFormatter/parseDateTime (DateTimeFormatter.java:945).
+; Invalid format: "2023-05-23T21:06:08.985Z" is malformed at "-05-23T21:06:08.985Z"
+clj꞉server.main꞉> (c/to-edn (t/now))
+"#clj-time/date-time \"2023-05-23T21:08:46.099Z\""
+clj꞉server.main꞉> 
+(=
+ (c/to-epoch (t/now))
+ (c/to-long (t/now)))
+false
+clj꞉server.main꞉> 
+(c/to-epoch (t/now))
+1684876179
+clj꞉server.main꞉> 
+(let [now (t/now)]
+  (= (c/to-epoch now) (c/to-long now)))
+false
+clj꞉server.main꞉> 
+(t/today-at 18)
+; Execution error (ArityException) at server.main/eval6246 (form-init3515947146643920816.clj:455).
+; Wrong number of args (1) passed to: clj-time.core/today-at
+clj꞉server.main꞉> 
+(t/today-at 18 0 0 )
+#clj-time/date-time "2023-05-23T18:00:00.000Z"
+clj꞉server.main꞉> 
+(c/to-epoch (t/today-at 15 0 0))
+1684854000
+clj꞉server.main꞉> 
+(c/to-epoch (t/today-at 18 0 0))
+1684864800
+clj꞉server.main꞉> 
+; Execution error (FileNotFoundException) at db.init/eval6258$loading (form-init3515947146643920816.clj:1).
+; Could not locate datascript/core__init.class, datascript/core.clj or datascript/core.cljc on classpath.
+clj꞉db.init꞉> 
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Connecting ...
+; Reading port file: file:///c%3A/Users/andre/projects/scheduler/server/.nrepl-port ...
+; Using host:port localhost:63708 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉server.core꞉> 
+clj꞉server.core꞉> 
+; Execution error (FileNotFoundException) at db.init/eval2054$loading (form-init10644021850475420480.clj:1).
+; Could not locate datascript/core__init.class, datascript/core.clj or datascript/core.cljc on classpath.
+clj꞉db.init꞉> 
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Connecting ...
+; Reading port file: file:///c%3A/Users/andre/projects/scheduler/server/.nrepl-port ...
+; Using host:port localhost:63758 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉server.core꞉> 
+clj꞉server.core꞉> 
+nil
+clj꞉db.init꞉> 
+#'db.init/schema
+clj꞉db.init꞉> 
+#'db.init/conn
+clj꞉db.init꞉> 
+; Syntax error (ArityException) compiling at (form-init6470280761934055119.clj:66:9).
+; Wrong number of args (2) passed to: datascript.core/create-conn
+clj꞉db.init꞉> (d/db-empty schema)
+; Syntax error compiling at (output.calva-repl:528:15).
+; No such var: d/db-empty
+clj꞉db.init꞉> 
+datascript.core/db-empty
+; Syntax error compiling at (output.calva-repl:1:1737).
+; No such var: datascript.core/db-empty
+clj꞉db.init꞉> 
+; Syntax error (AssertionError) compiling at (form-init6470280761934055119.clj:65:11).
+; Assert failed: (or (nil? schema) (map? schema))
+clj꞉db.init꞉> 
+nil
+clj꞉db.init꞉> 
+datascript.core/db-empty
+; Syntax error compiling at (output.calva-repl:1:1737).
+; No such var: datascript.core/db-empty
+clj꞉db.init꞉> 
+#'db.init/schema
+clj꞉db.init꞉> 
+#'db.init/conn
+clj꞉db.init꞉> d/transact!
+#object[datascript.core$transact_BANG_ 0xe03a57d "datascript.core$transact_BANG_@e03a57d"]
+clj꞉db.init꞉> 
+db.init/conn
+#object[clojure.lang.Atom 0x167749ad {:status :ready, :val #datascript/DB {:schema {:user #:user{:first-name #:db{:valueType :db.type/string, :cardinality :db.cardinality/one}}, :truck {}, :shift {}}, :datoms []}}]
+clj꞉db.init꞉> 
+(def db (d/db conn schema
+              ))
+; Syntax error (ArityException) compiling at (form-init6470280761934055119.clj:554:9).
+; Wrong number of args (2) passed to: datascript.core/db
+clj꞉db.init꞉> (d/transact! conn [{:db/id 1 
+                                  :first-name "Harry"}])
+#datascript.db.TxReport{:db-before #datascript/DB {:schema {:user #:user{:first-name #:db{:valueType :db.type/string, :cardinality :db.cardinality/one}}, :truck {}, :shift {}}, :datoms []}, :db-after #datascript/DB {:schema {:user #:user{:first-name #:db{:valueType :db.type/string, :cardinality :db.cardinality/one}}, :truck {}, :shift {}}, :datoms [[1 :first-name "Harry" 536870913]]}, :tx-data [#datascript/Datom [1 :first-name "Harry" 536870913 true]], :tempids {1 1, :db/current-tx 536870913}, :tx-meta nil}
+clj꞉db.init꞉> 
+(d/q '[find ?id
+       :where [?e :first-name "Harry"]
+              [?e. :db/id ?id]] @conn)
+; Execution error (ExceptionInfo) at datascript.parser/parse-find (parser.cljc:362).
+; Cannot parse :find, expected: (find-rel | find-coll | find-tuple | find-scalar)
+clj꞉db.init꞉> 
+; Execution error (ExceptionInfo) at datascript.parser/parse-find (parser.cljc:362).
+; Cannot parse :find, expected: (find-rel | find-coll | find-tuple | find-scalar)
+clj꞉db.init꞉> 
+; Execution error (ExceptionInfo) at datascript.parser/parse-find (parser.cljc:362).
+; Cannot parse :find, expected: (find-rel | find-coll | find-tuple | find-scalar)
+clj꞉db.init꞉> 
+; Execution error (ExceptionInfo) at datascript.parser/parse-find (parser.cljc:362).
+; Cannot parse :find, expected: (find-rel | find-coll | find-tuple | find-scalar)
+clj꞉db.init꞉> 
+; Execution error (IllegalArgumentException) at datascript.query/lookup-pattern-coll (query.cljc:405).
+; Don't know how to create ISeq from: clojure.lang.Atom
+clj꞉db.init꞉> 
+#{["Harry"]}
+clj꞉db.init꞉> 
+#{}
+clj꞉db.init꞉> 
+#{[1]}
+clj꞉db.init꞉> 

@@ -1,0 +1,35 @@
+{:user-levels [{:role "Admin"
+                :access 1}
+               {:role "Manager"
+                :access 2}
+               {:role "Staff"
+                :access 3}]
+
+ :users [{:trucks [{:id 1
+                    :access 3}]
+          :first-name "Guy"
+          :last-name "Fakeman"
+          :email "guy.fake@foo.bar"
+          :phone "15558675309"
+          :avatar "guy.png"
+          :id 1}]
+
+ :trucks [{:id 1
+           :name "Spiffy Spud"
+           :theme {:logo "spud.png"
+                   :primary "#FF0000"
+                   :secondary "000000"}}]
+
+ :shifts [{:start-time 1684854000
+           :end-time 1684864800
+           :staff [1]
+           :truck 1
+           :location {:name "Central Filling Station"
+                      :address {:street "900 N. Central St."
+                                :city "Knoxville"
+                                :state "TN"
+                                :zip "37917"}
+                      :geolocation {:latitude 35.97793
+                                    :longitude -83.9254}}
+           :event-name "optional"
+           :event-description "optional"}]}
