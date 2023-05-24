@@ -583,3 +583,30 @@ clj꞉db.init꞉> 
 clj꞉db.init꞉> 
 #{[1]}
 clj꞉db.init꞉> 
+(+ 1 1)
+2
+clj꞉db.init꞉> 
+t/now
+; Syntax error compiling at (output.calva-repl:1:1737).
+; No such namespace: t
+clj꞉db.init꞉> (require '[clj-time.core :as t])
+nil
+clj꞉db.init꞉> 
+t/now
+#object[clj_time.core$now 0x61eb2c59 "clj_time.core$now@61eb2c59"]
+clj꞉db.init꞉> 
+
+(require '[clojure-time.coerce :as c])
+; Execution error (FileNotFoundException) at db.init/eval6786 (form-init6470280761934055119.clj:599).
+; Could not locate clojure_time/coerce__init.class, clojure_time/coerce.clj or clojure_time/coerce.cljc on classpath. Please check that namespaces with dashes use underscores in the Clojure file name.
+clj꞉db.init꞉> 
+(require '[clj-time.coerce :as c])
+nil
+clj꞉db.init꞉> 
+(c/to-epoch (t/today-at 10 0 0))
+1684922400
+clj꞉db.init꞉> 
+
+(c/to-epoch (t/today-at 13 0 0))
+1684933200
+clj꞉db.init꞉> 
